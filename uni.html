@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rocks and Kebab University</title>
+        <link rel = "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src = "https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </head>
+    <style>
+        body{text-align: center; background-color: orange; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+        #title{font-size: 60px;}
+        #kebab{margin-bottom: 20px;}
+        .card{margin: 0 auto; display: inline-block;}
+        .card-text{font-size: 30px;}
+        .card-texto{font-size: 25px;}
+        h1{margin-top: 20px;}
+        div{margin-top: 20px; font-size: 30px;}
+        #addBtn{font-size: 20px;}
+        p{font-size: 20px;}
+        .card-img-top{height: 30rem;}
+        .card-img-bottom{height: 30rem;}
+        .card-img-bob{height: 35rem;}
+        button{font-size: 10px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+        li{font-size: 20px;}
+        .bob{display: block;}
+        #hidden{display: none;}
+        #apply{font-size: 20px; background-color: firebrick; margin-bottom: 20px;}
+        #donate{font-size: 20px;}
+        #yeet{margin-left: 100px; margin-right: 100px; margin-top: 20px; margin-bottom: 25px; line-height: 1.6}
+    </style>
+    <body>
+        <h1 id = "title">Welcome to Rocks and Kebab University</h1>
+        <img id = "kebab" src = "rocks and kebab.jpg">
+        <div class = "card bob" style = "width: 36rem;">
+            <img src = "bob.png" class = "card-img-bob">
+            <div class ="card-body">
+                <p class = "card-text">RKU's mascot, Bob the Kebab.</p>
+            </div>
+        </div>
+        <h1>What do you want to accomplish here at RKU?</h1>
+        <input type = "text" id = "input">
+        <button id = "addBtn">Add to list</button>
+        <div id = "content"> </div>
+        <div class = "alert alert-info" role = "alert">Learn about RKU's founder, Roxanne Chehab</div>
+        
+        <div id = "yeet"><p>Roxanne Chehab (RC) was born in 2002. She was born in New York and spent half of her life in New Jersey. She then spent the other half of her life in Beirut, Lebanon, where she attended the American Community School until founding Rocks and Kebab University at 17. This makes her the youngest person to found a school, not to mention build this super cool website for it. She was inspired to make this website during her attendance in TUMO Beirut's summer camp, in which she took courses for animation and programming. She still lives in Beirut with her younger sister Ashti, her mother, and, temporarily, her maternal grandmother. Her father lives and works in Sudan. RC is completing the International Baccalaureate® (IB) Diploma Programme (DP) and is suffering in all classes, consisting of high levels classes math, physics, English, and French, and standard level classes psychology and economics (so pls donate). She enjoys <a href = "https://www.youtube.com/watch?v=9ncbKoOUwv0">drumming</a>, playing basketball, and making music, films, and <a href = "https://www.instagram.com/the.creative.pessimist/?hl=af">drawings</a>.</p></div>
+        
+        <div class = "alert alert-info" role = "alert">Learn about the courses we offer</div>
+        <div class = "card" style = "width: 30rem;">
+            <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src = "weare.jpg" class = "card-img-top"></a>
+            <div class ="card-body">
+                <p class = "card-text">We-Are-Number-One-ing</p>
+            </div>
+        </div>
+        <div class = "card" style = "width: 50rem;">
+            <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src = "peppa.png" class = "card-img-top"></a>
+            <div class ="card-body">
+                <p class = "card-text">Peppa Swiney</p>
+            </div>
+        </div>
+        <div class = "card" style = "width: 40rem;">
+            <a href = "https://www.youtube.com/watch?v=tVj0ZTS4WF4"><img src = "rick.png" class = "card-img-top"></a>
+            <div class ="card-body">
+                <p class = "card-text">Professional Rick Rolling</p>
+            </div>
+        </div>
+        <div class = "card" style = "width: 25rem;">
+            <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src = "oldschool.jpg" class = "card-img-top"></a>
+            <div class ="card-body">
+                <p class = "card-text">Old Schooling</p>
+            </div>
+        </div>
+        <div class = "card" style = "width: 52rem;">
+            <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src = "keanu.jpg" class = "card-img-bottom"></a>
+            <div class ="card-body">
+                <p class = "card-text">Reeves</p>
+            </div>
+        </div>
+            <div class = "card" style = "width: 43rem;">
+            <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src = "mlg.jpg" class = "card-img-bottom"></a>
+            <div class ="card-body">
+                <p class = "card-text">Major League Gaming</p>
+            </div>
+        </div>
+        <div class = "alert alert-info" role = "alert">Learn about our staff</div>
+        <p>At RKU, we make sure that we have the best staff for the best students. We have 0 (zero) staff because not one teacher is perfect enough for our school!</p>
+        <div class = "alert alert-info" role = "alert">Learn about our students</div>
+        <p>Much like our staff, we have 0 (zero) students!</p>
+        <button id = "apply">Apply now!</button>
+        <div id="hidden" class="card" style="width: 18rem;">
+            <img src="sike.jpg" class="card-img-sike"style="width: 18rem;">
+            <div class="card-body">
+              <p class="card-texto">Walaw? You thought we'd accept you?</p>
+            </div>
+        </div>
+        <div class = "alert alert-info" role = "alert">Notes for RC to remember how to code :p</div>
+            <pre>
+                <li>Paragraphs: &ltp&gt PARAGRAPH &lt/p&gt</li>
+                <li>Links: &lta href = "www.link.com"&gt link &lt/a&gt</li>
+                <li>Pictures: &ltimg src = "image name"&gt</li>
+                <li>Buttons: &ltbutton&gt BUTTON NAME &lt/button&gt</li>
+                <li>Division: &ltdiv&gt DIVISION &ltdiv/&gt</li>
+                <li>Giving items ID's and Classes: &ltitem id = ID-NAME class = CLASS-NAME&gt things &lt/item&gt</li>
+                <li>Structure: &lthtml&gt &lthead&gt &lttitle&gt TITLE &lt/title&gt &lt/head&gt &ltbody&gt EVERYTHING IN SITE &ltscript&gt &lt/script&gt &lt/body&gt &lt/html&gt</li>
+                <li>Design: &ltstyle&gt item-name {property1: value1; property2: value2;} &lt/style&gt</li>
+                <li>Referring to ID's and Classes in Design: &ltstyle&gt #id-name {property1: value1;} .class-name {property2: value2;} &lt/style&gt</li>
+                <li>Functions (JavaScript): &ltscript&gt FUNCTION &lt/script&gt</li>
+            </pre>
+        <div class = "alert alert-info" role = "alert">Follow @roxanne.chehab on Instagram for absolutely no information or updates about RKU!</div>
+        <img src = "thats all folks.jpg">
+        <div><a href = https://www.youtube.com/watch?v=y6120QOlsfU><button id = "donate">pls donate</button></a></div>
+        <script>
+            document.getElementById('content').innerHTML = localStorage.getItem('myList')
+            document.getElementById('addBtn').addEventListener('click', function(){
+                var a = document.createElement('li')
+                a.innerHTML = document.getElementById('input').value
+                var b = document.createElement('button')
+                b.addEventListener('click', removeItem)
+                b.innerHTML = "X"
+                a.append(b)
+                document.getElementById('content').append(a)
+                localStorage.setItem('myList', document.getElementById('content').innerHTML)})
+            function removeItem(){
+                this.parentNode.remove()}
+            document.getElementById('apply').addEventListener('click', function(){
+                document.getElementById("hidden").style.display = "block"
+            })
+        </script>  
+    </body>
+</html>
